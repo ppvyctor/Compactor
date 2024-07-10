@@ -7,3 +7,6 @@ I would like to express my deepest gratitude to Professor André Luís dos Reis 
 # Contributors
 - André Luís dos Reis Gomes de Carvalho
 - Pedro Vyctor Carvalho de Almeida
+
+# Mentors
+- André Luís dos Reis Gomes de Carvalho
