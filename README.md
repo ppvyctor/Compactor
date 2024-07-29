@@ -10,3 +10,6 @@ I would like to express my deepest gratitude to Professor André Luís dos Reis 
 
 # Mentors
 - André Luís dos Reis Gomes de Carvalho
+
+# Note
+**The code is still developing**
