@@ -1,5 +1,6 @@
 public class NO<TIPO> {
-    protected Object[] object;
+    protected long qtd_aparecimentos;
+    protected byte get_byte;
     protected NO<TIPO> left;
     protected NO<TIPO> right;
 
@@ -7,7 +8,8 @@ public class NO<TIPO> {
     // Construtor que recebe um object
     public NO(Object[] object)
     {
-        this.object = object;
+        this.qtd_aparecimentos = (long) object[1];
+        this.get_byte = (byte) object[0];
         this.left = null;
         this.right = null;
     }
@@ -16,9 +18,15 @@ public class NO<TIPO> {
 // ABAIXO TEMOS FUNÇÕES GETERS
 
     // Retorna o object de um no
-    public Object[] getObject()
+    public byte getByte()
     {
-        return this.object;
+        return this.get_byte;
+    }
+
+
+    public long getAparecimentos()
+    {
+        return this.qtd_aparecimentos;
     }
 
 
@@ -41,7 +49,7 @@ public class NO<TIPO> {
     // Modifica o valor do object
     public void setObject(Object[] object)
     {
-        this.object = object;
+        this.get_byte = (byte) object[0];
     }
 
 
@@ -61,6 +69,6 @@ public class NO<TIPO> {
 // Print no
     public void printNo()
     {
-        System.out.println("[" + this.object[0] + ", " + this.object[1] + "]");
+        System.out.println("[" + this.get_byte + ", " + this.qtd_aparecimentos + "]");
     }
 }

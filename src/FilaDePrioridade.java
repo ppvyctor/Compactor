@@ -30,7 +30,6 @@ public class FilaDePrioridade
                     {
                         this.listByte.get(pos)[1] = (long) this.listByte.get(pos)[1] + 1;
                         aux = this.listByte.get(pos);
-                        
 
                         if(this.listByte.size() != 1 && pos < this.listByte.size() - 1)
                         {    
